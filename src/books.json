@@ -1,15 +1,15 @@
 [
     {
-        "Title": "Book1",
-        "Author": "Author1" 
+        "title": "Book1",
+        "author": "Author1" 
     },
     {
-        "Title": "Book2",
-        "Author": "Author2" 
+        "title": "Book2",
+        "author": "Author2" 
     },
     {
-        "Title": "Book3",
-        "Author": "Author3" 
+        "title": "Book3",
+        "author": "Author3" 
     }
     
 

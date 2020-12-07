@@ -1,3 +1,13 @@
 .App {
   text-align: center;
 }
+.App table{
+  width: 30%;
+  text-align: center;
+  margin: auto;
+}
+.App button{
+  margin-top: 25px;
+  padding: 10px;
+  background-color: greenyellow;
+}

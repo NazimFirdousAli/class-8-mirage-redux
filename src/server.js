@@ -7,8 +7,14 @@ export function makeServer() {
     routes() {
       this.namespace = "api"
 
-      this.get("/books", (schema) => {
-        return [books]
+      this.get("/books", () => {
+        return books
+      })
+      
+      this.post("/add", (schema,request) => {
+        console.log(request);
+        const newBook = JSON.parse(request.requestBody);
+        books.push(newBook)
       })
     },
   })
